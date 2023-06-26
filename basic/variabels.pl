@@ -8,14 +8,6 @@ my $age=25;
 my $name="Zlatan Ibrahimovic";
 my $salary=655555.45;
 
-# Array of numeric values
-my @ages = (45, 45, 23, 69);
-# Array of strings
-my @names = ("Hans Peter", "Peter Griffin", "Homer Simpson");
-
-# Array with range operator
-my @first_tweny_numbers = (1..20);
-
 # Hash
 my %first_hash = (1, "Hans Peter", 2, "Homer Simpson");
 
@@ -23,11 +15,6 @@ print "Age: $age\n";
 print "Name: $name\n";
 print "Salary: $salary\n";
 
-print "First value of ages: $ages[0]\n";
-print "All values of age: @ages\n";
-print "Third value of names: $names[2]\n";
-
-print "@first_tweny_numbers\n";
 
 print "1 -> $first_hash{1}\n";
 print "2 -> $first_hash{2}\n";
