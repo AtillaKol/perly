@@ -11,6 +11,7 @@ my $salary=655555.45;
 
 # Array of numeric values
 my @ages = (45, 45, 23, 69);
+# Array of strings
 my @names = ("Hans Peter", "Peter Griffin", "Homer Simpson");
 
 # Hash
