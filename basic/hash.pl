@@ -12,3 +12,6 @@ print "The best of the best: $data{1}\n";
 # Stors all values of the hash
 my @all_teams = values %data;
 print "All teams: @all_teams\n";
+
+my @ranks = keys %data;
+print "Ranks: @ranks\n";
