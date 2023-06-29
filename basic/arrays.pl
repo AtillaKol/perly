@@ -31,6 +31,10 @@ my @swiss_football_clubs_as_array = split(",", $swiss_football_clubs);
 print "Swiss football clubs as a string: $swiss_football_clubs\n";
 print "Swiss football clubs as an array: @swiss_football_clubs_as_array\n";
 
+# changes an array back to one long string in which the elements are seperated by a comma
+my $undo = join(",", @swiss_football_clubs_as_array);
+print "Swiss football clubs after calling join: $undo\n";
+
 # Array with range operator
 my @first_tweny_numbers = (1..20);
 # Get the size of the array
