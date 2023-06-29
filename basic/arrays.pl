@@ -8,6 +8,23 @@ use warnings;
 my @ages = (45, 45, 23, 69);
 # Array of strings
 my @names = ("Hans Peter", "Peter Griffin", "Homer Simpson");
+print "names before push: @names\n";
+
+# Adds element at the end of an array.
+push(@names, "Bart Simpson");
+print "names after push: @names\n";
+
+# Adds element at the start of an array
+unshift(@names, "Peter Parker");
+print "names after unshift: @names\n";
+
+# Remove last element of the array
+pop(@names);
+print "names after pop: @names\n";
+
+# Remove first element of the array
+shift(@names);
+print "names after shift: @names\n";
 
 # Array with range operator
 my @first_tweny_numbers = (1..20);
