@@ -15,3 +15,6 @@ print "All teams: @all_teams\n";
 
 my @ranks = keys %data;
 print "Ranks: @ranks\n";
+
+# Print size of the hash
+print "Size of the hash is: ",  scalar @all_teams,"\n";
