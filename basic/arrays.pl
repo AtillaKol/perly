@@ -26,6 +26,11 @@ print "names after pop: @names\n";
 shift(@names);
 print "names after shift: @names\n";
 
+my $swiss_football_clubs = "FCSG,FCB,GC,FCZ,YB";
+my @swiss_football_clubs_as_array = split(",", $swiss_football_clubs);
+print "Swiss football clubs as a string: $swiss_football_clubs\n";
+print "Swiss football clubs as an array: @swiss_football_clubs_as_array\n";
+
 # Array with range operator
 my @first_tweny_numbers = (1..20);
 # Get the size of the array
