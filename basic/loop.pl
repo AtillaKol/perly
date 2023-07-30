@@ -25,3 +25,11 @@ print "For loop\n";
 for(my $i = 0; $i <= 10; $i++) {
     print "i = $i\n";
 }
+
+my @array = (1, 2, 3, 4, 5);
+print "-----------------\n";
+
+print "Foreach loop\n";
+foreach my $i (@array) {
+    print "i = $i\n";
+}
